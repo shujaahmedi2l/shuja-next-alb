@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "shuja-next-alb"
+  description: "nothing"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/shuja-next-alb"
+    argocd/app-name: "shuja-next-alb"
+  links:
+    - url: https://shuja-next-alb.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
